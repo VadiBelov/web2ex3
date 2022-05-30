@@ -4,7 +4,6 @@ if (!empty($_GET['save'])){
     echo'<script>alert("Результаты сохранены!");</script>';
 }
 include('index.php');
-exit();
 }
 
 $errors = FALSE;
