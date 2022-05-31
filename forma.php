@@ -34,13 +34,12 @@ if(empty($_POST['superpowers'])){
 if(empty($_POST['biography'])){
     $_POST['biography']=" ";
 }
-if($errors){
- print('Попробуйте ещё раз.');
-
 if(empty($_POST['checkbox'])){
      print('Ознакомтесь с контрактом.<br/>');
      $errors = TRUE;
  }
+if($errors){
+ print('Попробуйте ещё раз.');
     exit();
 }
 
